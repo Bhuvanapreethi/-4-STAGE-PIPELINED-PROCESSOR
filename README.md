@@ -31,6 +31,7 @@ Src reg: 000 → R0
 So: ADD R1, R1, R0
 Conclusion
 This design successfully demonstrates how a pipelined processor can improve efficiency by executing different stages of multiple instructions in parallel. While the current implementation is simple and does not handle hazards (like data dependencies or control hazards), it serves as a foundational model for understanding pipelining in computer architecture. Future improvements can include support for multiple instructions, branch handling, data forwarding, and hazard detection mechanisms.
+![Image](https://github.com/user-attachments/assets/a4dd897e-9690-47b7-9e3f-40721baab79b)
 
 
 
